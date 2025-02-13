@@ -54,5 +54,6 @@ int main() {
     }
     merge_sort(arr, 0, size - 1);
     arr_print(arr, size);
+    delete[] arr;
     return 0;
 }
