@@ -38,7 +38,6 @@ void arr_print(int* arr, size_t size) {
     std::cout << std::endl;
 }
 
-
 int main() {
     int size;
     std::cin >> size;
